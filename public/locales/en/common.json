@@ -1,0 +1,342 @@
+{
+  "common": {
+    "appName": "Na-um",
+    "appNameEn": "Na-um",
+    "welcome": "Welcome",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "success": "Success",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "search": "Search",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next Step",
+    "submit": "Submit",
+    "complete": "Complete",
+    "required": "Required",
+    "optional": "Optional"
+  },
+  "home": {
+    "title": "Na-um",
+    "subtitle": "Medical Service for Foreigners",
+    "description": "Making healthcare easier in Korea. Find hospitals, explain symptoms, and check medicine information without language barriers.",
+    "feature1Title": "Multilingual Support",
+    "feature1Desc": "Service available in Korean, English, Chinese, and Vietnamese",
+    "feature2Title": "AI Chart Generation",
+    "feature2Desc": "Automatically converts symptoms into medical charts",
+    "feature3Title": "Cost Estimation",
+    "feature3Desc": "Check estimated medical costs based on insurance information",
+    "footer": "© 2026 Na-um. All rights reserved."
+  },
+  "main": {
+    "welcome": "Welcome, {{name}}!",
+    "mypage": "My Page",
+    "heroText": "Supporting your healthy life in Korea",
+    "tagline": "Medical Service for Foreigners",
+    "searchMedications": "Search Medications",
+    "searchMedicationsDesc": "Search medication info and check allergy ingredients",
+    "describeSymptoms": "Describe Symptoms",
+    "describeSymptomsDesc": "Enter symptoms and generate AI medical chart",
+    "hospitalGuide": "Hospital Visit Guide",
+    "hospitalGuideDesc": "Learn about the Korean healthcare system and how to use hospitals"
+  },
+  "auth": {
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Sign Up",
+    "username": "Username",
+    "password": "Password",
+    "passwordConfirm": "Confirm Password",
+    "fullName": "Full Name",
+    "birthDate": "Date of Birth",
+    "phone": "Phone Number",
+    "email": "Email",
+    "location": "Location",
+    "loginTitle": "Login",
+    "loginDesc": "Login to your account to use medical services",
+    "registerTitle": "Sign Up",
+    "backToHome": "Back to Home",
+    "orDivider": "or",
+    "loginRequired": "Please enter your username and password.",
+    "loginSuccess": ", welcome!"
+  },
+  "symptoms": {
+    "title": "Select Symptoms",
+    "subtitle": "Please select your symptoms",
+    "selectedCount": "{{count}} selected",
+    "noSelection": "Please select at least one symptom",
+    "next": "Next",
+    "detailTitle": "Describe Symptoms",
+    "detailSubtitle": "Please describe your symptoms in detail",
+    "selectedSymptoms": "Selected symptoms",
+    "guideline": "Please provide detailed information on the following",
+    "guidelineItems": "• Main symptoms\n• Duration of symptoms\n• Pain location and intensity\n• Accompanying symptoms\n• Existing medical history or current medications\n• Other notes",
+    "noInput": "Please fill in at least one field",
+    "field": {
+      "mainSymptoms": "Main Symptoms",
+      "duration": "Duration of Symptoms",
+      "painLocation": "Pain Location & Intensity",
+      "accompanyingSymptoms": "Accompanying Symptoms",
+      "medicalHistory": "Medical History / Medications",
+      "otherNotes": "Other Notes"
+    },
+    "placeholder": "Describe your symptoms in your native language...\n\nExample: Since last evening, I have had a throbbing headache and my temperature rose to 38°C. I feel chills.",
+    "summarize": "Generate AI Chart",
+    "generating": "Generating chart...",
+    "generatingDesc": "AI is generating your medical chart...",
+    "chartTitle": "Medical Chart",
+    "chartSubtitle": "AI-generated medical chart",
+    "chartGenerated": "Chart has been generated",
+    "ok": "OK",
+    "edit": "Edit",
+    "saveAsImage": "Save as Image",
+    "saving": "Saving...",
+    "saved": "Saved",
+    "editMode": "Edit Mode",
+    "saveEdit": "Save",
+    "cancelEdit": "Cancel",
+    "proceedToHospital": "Get Hospital Recommendations",
+    "back": "Back"
+  },
+  "hospitals": {
+    "title": "Hospital Recommendations",
+    "findingHospitals": "Finding hospitals...",
+    "recommendTitle": "We recommend hospitals for you",
+    "recommendedDepartment": "Recommended Department",
+    "locationAndDepartment": "Location & Department",
+    "phone": "Phone",
+    "address": "Address",
+    "noPhone": "N/A",
+    "call": "Call",
+    "directions": "Directions",
+    "noPhoneAlert": "No phone number available.",
+    "clinicHours": "Clinic Hours: Mon-Sat, 10:00 - 18:00"
+  },
+  "medicine": {
+    "title": "Medication Search",
+    "searchPlaceholder": "Enter medication name or symptom",
+    "searchButton": "Search",
+    "searching": "Searching...",
+    "guide": "Search for the medication you're looking for.\nWe'll show you how to purchase it in Korea and recommend equivalent medications with the same active ingredients.",
+    "classification": {
+      "otc": "Over-the-Counter (OTC)",
+      "otcDesc": "Can be purchased at pharmacies without a prescription",
+      "rx": "Prescription (RX)",
+      "rxDesc": "Requires a doctor's prescription",
+      "unknown": "Classification Unknown"
+    },
+    "primaryUse": "Primary Use",
+    "activeIngredient": "Active Ingredient",
+    "allergens": "Potential Allergens",
+    "priceRange": "Estimated Price (Korea)",
+    "usageTip": "Usage Tips",
+    "alternatives": "Medications with Same Active Ingredient",
+    "noAlternatives": "No alternative medications found",
+    "noResult": "No Results Found",
+    "noResultDesc": "We couldn't find any information for this medication.\nPlease check the medication name or try searching by the active ingredient.",
+    "searchAgain": "Search Again",
+    "searchAnother": "Search Another Medication",
+    "disclaimer": "Prices shown are based on the average range in Korea and may vary depending on the seller. This is an AI estimate - please consult a pharmacist.",
+    "medicationImage": "(Medication Image)"
+  },
+  "register": {
+    "step1Title": "Step 1: Set Username",
+    "step2Title": "Step 2: Set Password",
+    "step3Title": "Step 3: Personal Information",
+    "step4Title": "Step 4: Medical Information",
+    "progress": "{{current}}/4",
+    "usernamePlaceholder": "Enter at least 4 characters",
+    "checkDuplicate": "Check Availability",
+    "checking": "Checking...",
+    "usernameAvailable": "This username is available.",
+    "usernameUnavailable": "This username is already taken or unavailable.",
+    "checkError": "Failed to connect to server. Please try again.",
+    "usernameInfo": "• At least 4 characters (letters and numbers)\n• Special characters are not allowed",
+    "passwordPlaceholder": "Enter at least 8 characters",
+    "passwordConfirmPlaceholder": "Re-enter your password",
+    "passwordLength": "At least 8 characters",
+    "passwordLetter": "Contains letters",
+    "passwordNumber": "Contains numbers",
+    "passwordMatch": "Passwords match.",
+    "passwordMismatch": "Passwords do not match.",
+    "personalInfo": "Personal Information",
+    "fullNamePlaceholder": "John Doe",
+    "phonePlaceholder": "010-1234-5678",
+    "emailPlaceholder": "example@email.com",
+    "locationPlaceholder": "Seoul, Gangnam",
+    "requiredFields": "Required Fields",
+    "personalInfoDesc": "• Full name, date of birth, and phone number are required\n• Email and location are optional",
+    "medicalInfo": "Medical Information",
+    "insurance": "Insurance Information",
+    "insuranceNational": "National Health Insurance",
+    "insuranceOther": "Other Insurance (Optional)",
+    "insuranceOtherPlaceholder": "Enter your insurance name",
+    "allergies": "Allergy Information",
+    "allergiesDesc": "Enter drug allergies, food allergies, etc.",
+    "allergiesPlaceholder": "Enter allergy item",
+    "allergiesEmpty": "Enter \"None\" if you have no allergies",
+    "medications": "Current Medications",
+    "medicationsDesc": "Enter medications you are currently taking",
+    "medicationsPlaceholder": "Enter medication name",
+    "medicationsEmpty": "Enter \"None\" if you are not taking any medications",
+    "diseases": "Chronic Diseases",
+    "diseasesDesc": "Enter diseases or chronic conditions you are currently treating",
+    "diseasesPlaceholder": "Enter disease name",
+    "diseasesEmpty": "Enter \"None\" if you have no chronic diseases",
+    "medicalInfoTitle": "Medical Information Notice",
+    "medicalInfoNote": "• Medical information will be used for chart generation and cost estimation\n• Allergy information will be used for warnings when searching medicines\n• All information is securely encrypted and stored",
+    "completeRegistration": "Complete Registration",
+    "registrationCompleteMessage": "Registration completed! (UI only)"
+  },
+  "guide": {
+    "title": "Hospital Visit Guide",
+    "sections": {
+      "hospitalTypes": "Types of Hospitals in Korea",
+      "beforeVisit": "Before You Visit",
+      "duringVisit": "During Your Visit",
+      "medicalCosts": "Medical Costs",
+      "otherTips": "Other Tips"
+    },
+    "hospitalTypes": {
+      "title": "Types of Hospitals in Korea",
+      "level1": {
+        "title": "1st Level (Clinic / Local Hospital)",
+        "items": [
+          "Walk-ins welcome without appointment",
+          "Most popular choice for foreigners",
+          "Affordable fees and short wait times",
+          "Recommended for: Common cold, skin issues, minor symptoms"
+        ]
+      },
+      "level2": {
+        "title": "2nd Level (General Hospital)",
+        "items": [
+          "Some departments may require appointments",
+          "Often referred from primary clinics",
+          "Recommended for: Persistent or severe symptoms, tests, or hospitalization"
+        ]
+      },
+      "level3": {
+        "title": "3rd Level (Tertiary / University Hospital)",
+        "items": [
+          "Handles serious illnesses and advanced treatments",
+          "Doctor's referral letter generally required",
+          "Appointments essential; long wait times possible",
+          "Insurance coverage may be limited without referral",
+          "Recommended for: Cancer, major illnesses, surgery, specialized care"
+        ]
+      }
+    },
+    "beforeVisit": {
+      "title": "Before You Visit",
+      "appointment": {
+        "title": "1) Walk-in vs. Appointment",
+        "walkIn": {
+          "title": "Walk-in (No Appointment Needed)",
+          "items": [
+            "Most primary clinics accept walk-ins",
+            "Seen in order of arrival"
+          ]
+        },
+        "reservation": {
+          "title": "Appointment Recommended / Required",
+          "items": [
+            "Dermatology, dentistry, orthopedics: Reservations recommended",
+            "2nd & 3rd level hospitals: Mostly require appointments",
+            "University hospitals: Prior booking usually essential"
+          ]
+        }
+      },
+      "preparation": {
+        "title": "2) What to Bring",
+        "essential": {
+          "title": "Essential Items",
+          "items": [
+            "Alien Registration Card or Passport",
+            "Payment method (cash or card)"
+          ]
+        },
+        "additional": {
+          "title": "Additional Items",
+          "items": [
+            "National Health Insurance info or insurance card",
+            "Previous medical records, prescriptions, current medications"
+          ]
+        }
+      }
+    },
+    "duringVisit": {
+      "title": "During Your Visit",
+      "steps": {
+        "title": "1) Hospital Visit Steps",
+        "items": [
+          "Present your ID at the reception desk",
+          "Briefly describe your symptoms. You can also show Na-um's chart",
+          "Your name will be added to the waiting list. Wait for your turn",
+          "After consultation, proceed to payment at the billing counter",
+          "If you receive a prescription, go to the pharmacy",
+          "Submit your prescription at the pharmacy and collect your medication",
+          "Always confirm how to take your medication"
+        ]
+      },
+      "culture": {
+        "title": "2) Hospital Culture Differences",
+        "items": [
+          "Consultations may be brief, but this is normal procedure",
+          "Answer doctor's questions clearly and concisely",
+          "Photography or recording may be restricted inside the hospital"
+        ]
+      }
+    },
+    "medicalCosts": {
+      "title": "Medical Costs",
+      "surcharge": {
+        "title": "1) Additional Fees for Off-Hours Care",
+        "items": [
+          "Night visits cost more than regular daytime visits",
+          "Weekends and holidays incur extra charges",
+          "Emergency room visits have the highest fees",
+          "Surcharge amounts vary by hospital and time"
+        ]
+      },
+      "insurance": {
+        "title": "2) Insurance Coverage Guide",
+        "national": {
+          "title": "National Health Insurance Members",
+          "items": [
+            "Pay only a portion of the medical bill",
+            "Insurance coverage applied immediately at hospitals"
+          ]
+        },
+        "nonNational": {
+          "title": "Non-National Health Insurance Members",
+          "items": [
+            "Must pay full medical costs out-of-pocket",
+            "Hospital bills can be significantly higher"
+          ]
+        },
+        "private": {
+          "title": "Private Insurance",
+          "items": [
+            "Usually not applied directly at hospitals",
+            "Receive receipts and medical records for later reimbursement claims"
+          ]
+        },
+        "note": "* Stays of 6 months or longer require enrollment in National Health Insurance"
+      }
+    },
+    "otherTips": {
+      "title": "Other Tips",
+      "items": [
+        "Keep your receipts and medical records",
+        "Medical certificates or doctor's notes may incur extra fees",
+        "Emergency rooms are the most expensive with long wait times",
+        "It's okay to ask the pharmacist again if you're unsure about medication instructions"
+      ]
+    }
+  }
+}
