@@ -10,7 +10,13 @@ import { useChartStore } from '@/lib/stores/chartStore';
 import { useSymptomStore } from '@/lib/stores/symptomStore';
 import { chartAPI } from '@/lib/api/chart';
 import { SYMPTOM_CATEGORIES } from '@/constants/symptoms';
-import domtoimage from 'dom-to-image-more';
+import dynamic from 'next/dynamic';
+
+// dom-to-image-more는 클라이언트에서만 로드
+let domtoimage: any = null;
+if (typeof window !== 'undefined') {
+  domtoimage = require('dom-to-image-more');
+}
 
 export default function ChartResultPage() {
   const { t, i18n } = useTranslation();
@@ -113,7 +119,10 @@ export default function ChartResultPage() {
 
   // 이미지로 저장
   const handleSaveAsImage = async () => {
-    if (!chartRef.current) return;
+    if (!chartRef.current || !domtoimage) {
+      alert(i18n.language === 'ko' ? '이미지 저장 기능을 불러오는 중입니다.' : 'Loading image save feature.');
+      return;
+    }
 
     setIsSaving(true);
     setSaveSuccess(false);
@@ -133,7 +142,8 @@ export default function ChartResultPage() {
     chartRef.current.classList.remove('shadow-lg');
 
     try {
-      const dataUrl = await domtoimage.toPng(chartRef.current, {
+      const domToImageLib = domtoimage.default || domtoimage;
+      const dataUrl = await domToImageLib.toPng(chartRef.current, {
         quality: 1,
         bgcolor: '#f0f9ff',
         style: {
